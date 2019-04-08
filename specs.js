@@ -182,6 +182,10 @@ function request() {
     'Content-Disposition: form-data; name="someField[bar]"',
     '',
     'bar',
+    '-----------------------------paZqsnEHRufoShdX6fh0lUhXBP4k',
+    'Content-Disposition: form-data; name="someField[bar]"',
+    '',
+    'bar',
 
     '-----------------------------paZqsnEHRufoShdX6fh0lUhXBP4k',
     'Content-Disposition: form-data; name="upload_file_0"; filename="1k_a.dat"',

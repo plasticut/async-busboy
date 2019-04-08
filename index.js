@@ -190,6 +190,10 @@ const objectFromBluePrint = (arr, value) => {
  *
  */
 const reconcile = (obj, target) => {
+  if (typeof target === 'string') {
+    return;
+  }
+
   const key = Object.keys(obj)[0];
   const val = obj[key];
 
